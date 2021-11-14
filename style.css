@@ -1,0 +1,37 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+
+}
+.main{
+  width: 1000px;
+  margin: 150px auto;
+}
+.title{
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 20px;
+  
+}
+#getting-started{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.single-counter{
+  background-color: #ff7720;
+  width:240px;
+  text-align: center;
+  color: #fff;
+  padding: 40px 0;
+  font-size: 45px;
+  font-weight: 600;
+}
+.single-counter span{
+  display: block;
+  text-transform: capitalize;
+  font-size: 22px;
+  margin-top: 5px;
+}
